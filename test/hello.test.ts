@@ -1,5 +1,9 @@
-import { Hello } from '../src';
+import { Stack } from 'aws-cdk-lib';
+import { SwaggerUi } from '../src';
 
-test('hello', () => {
-  expect(new Hello().sayHello()).toBe('hello, world!');
+
+test('SwaggerUI', () => {
+  const app = new Stack();
+  const stack = new SwaggerUi(app, 'Test', {});
+  expect(stack).toBeDefined();
 });
