@@ -10,6 +10,15 @@ const project = new awscdk.AwsCdkConstructLibrary({
   projenrcTs: true,
   repositoryUrl: 'https://github.com/tufweb/cdk-constructs.git',
   packageManager: NodePackageManager.NPM,
+  keywords: [
+    'aws',
+    'cdk',
+    'openapi',
+    'restapi',
+    'apigateway',
+    'swagger',
+    'constructs',
+  ],
 
   description: 'A CDK construct library by TufWeb',
   // deps: [],                /* Runtime dependencies of this module. */

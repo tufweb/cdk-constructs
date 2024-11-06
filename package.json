@@ -76,7 +76,13 @@
     "js-yaml"
   ],
   "keywords": [
-    "cdk"
+    "apigateway",
+    "aws",
+    "cdk",
+    "constructs",
+    "openapi",
+    "restapi",
+    "swagger"
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
